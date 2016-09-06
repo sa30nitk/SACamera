@@ -16,7 +16,7 @@
 		6D5975AB8D1B2C358DE82F888A69A8B7 /* Pods-SACamera_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EDB5CA8568DA0215FB0D306B1D5B11 /* Pods-SACamera_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A1D84A3023B1A98D30E9D7112CF0FBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		C9FF315C8EB9C84C34DC0FD508E04FEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		CE9E458DC4EF9C255DC33A3E7A9E059A /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED482CC743217CC325CEE35366DBE9D /* ReplaceMe.swift */; };
+		CE9E458DC4EF9C255DC33A3E7A9E059A /* SACamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED482CC743217CC325CEE35366DBE9D /* SACamera.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +49,7 @@
 		A4E838B93EA69C08B39EBE6F7190159D /* Pods-SACamera_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SACamera_Tests.modulemap"; sourceTree = "<group>"; };
 		A5EB719E420ECED35A15AEB8C1CE3D53 /* Pods-SACamera_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SACamera_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		AD8FCFEE9D33631AAEEFF6D49376AF00 /* SACamera-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SACamera-prefix.pch"; sourceTree = "<group>"; };
-		AED482CC743217CC325CEE35366DBE9D /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		AED482CC743217CC325CEE35366DBE9D /* SACamera.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SACamera.swift; sourceTree = "<group>"; };
 		B0DAC8480FEC8CD9224E7BC7078C723C /* Pods-SACamera_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SACamera_Tests-resources.sh"; sourceTree = "<group>"; };
 		B0E77E378659275AF51093DB8AF57274 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1CE1FC2B150F8C413135ADDDC5B747B /* Pods-SACamera_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SACamera_Example.modulemap"; sourceTree = "<group>"; };
@@ -151,7 +151,7 @@
 		8FA9D415F0F97A0954F39774A59917AC /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				AED482CC743217CC325CEE35366DBE9D /* ReplaceMe.swift */,
+				AED482CC743217CC325CEE35366DBE9D /* SACamera.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -345,7 +345,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE9E458DC4EF9C255DC33A3E7A9E059A /* ReplaceMe.swift in Sources */,
+				CE9E458DC4EF9C255DC33A3E7A9E059A /* SACamera.swift in Sources */,
 				3BB6207E9AA2A5FDA96C508FB35C5FE3 /* SACamera-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
