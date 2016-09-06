@@ -22,7 +22,7 @@ pod "SACamera"
 
 ## Author
 
-SATEESH, gudla.sateesh@practo.com
+SATEESH, sa30nitk@gmail.com
 
 ## License
 
