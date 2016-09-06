@@ -1,0 +1,16 @@
+PODS:
+  - SACamera (0.1.0)
+
+DEPENDENCIES:
+  - SACamera (from `../`)
+
+EXTERNAL SOURCES:
+  SACamera:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SACamera: 397a566c74f1f00a5b7439edf5d41f810f795285
+
+PODFILE CHECKSUM: b764ba05158f9e910ef4772626c441c4c6227ba6
+
+COCOAPODS: 1.0.1

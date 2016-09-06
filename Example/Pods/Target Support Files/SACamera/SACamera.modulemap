@@ -1,0 +1,6 @@
+framework module SACamera {
+  umbrella header "SACamera-umbrella.h"
+
+  export *
+  module * { export * }
+}
