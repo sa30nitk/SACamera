@@ -11,6 +11,28 @@ import UIKit
 import UIKit
 import AVFoundation
 import QuartzCore
+import Foundation
+
+struct config {
+    var orientations:[Int] = [0]
+    var outputType:OutPutType = .Jpeg
+    var outputScale = 1
+    var outputSize = CGSize(width: 1000, height: 1000)
+    var jPegCompression = 0
+    var showOverlay = true
+    var changeOrientaionOnCapturing = true
+    var maxNumberOfImages = 10
+    var imagesCollectionView = true
+    var tourchEnabled = true
+    var focusEnabled = true
+    var sessionPreset = AVCaptureSessionPresetPhoto
+    var flashEnabled = true
+    var videoGravity = AVLayerVideoGravityResizeAspectFill
+    var captureMode:CameraCaptureMode = .Photo
+    var isPhotoCamera = true
+    var imageSize:ImageSize = .Visible
+}
+
 
 enum OutPutType{
     case Jpeg,Png
@@ -19,6 +41,11 @@ enum OutPutType{
 enum ImageSize{
     case Full,Visible
 }
+
+enum CameraCaptureMode{
+    case Photo,Video
+}
+
 
 
 class SACamera: UIView {

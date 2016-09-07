@@ -17,6 +17,7 @@
 		7A1D84A3023B1A98D30E9D7112CF0FBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		C9FF315C8EB9C84C34DC0FD508E04FEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		CE9E458DC4EF9C255DC33A3E7A9E059A /* SACamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED482CC743217CC325CEE35366DBE9D /* SACamera.swift */; };
+		F90918741D7FC162005C6AF1 /* SACameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90918731D7FC162005C6AF1 /* SACameraViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,8 @@
 		E6EDB5CA8568DA0215FB0D306B1D5B11 /* Pods-SACamera_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SACamera_Example-umbrella.h"; sourceTree = "<group>"; };
 		E83918B08D2950FE8942F867D2CAE387 /* SACamera.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SACamera.modulemap; sourceTree = "<group>"; };
 		EB73857469B1301A9E2E77CD31F26CFF /* SACamera.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SACamera.xcconfig; sourceTree = "<group>"; };
+		F90918731D7FC162005C6AF1 /* SACameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SACameraViewController.swift; sourceTree = "<group>"; };
+		F90918751D7FC181005C6AF1 /* SACamera.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SACamera.storyboard; path = Assets/SACamera.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				AED482CC743217CC325CEE35366DBE9D /* SACamera.swift */,
+				F90918731D7FC162005C6AF1 /* SACameraViewController.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -185,6 +189,7 @@
 		D0D5ACC332F8B5450F38BAF3A65406F5 /* SACamera */ = {
 			isa = PBXGroup;
 			children = (
+				F90918701D7FC10B005C6AF1 /* Assets */,
 				8FA9D415F0F97A0954F39774A59917AC /* Classes */,
 			);
 			path = SACamera;
@@ -220,6 +225,14 @@
 			);
 			name = "Pods-SACamera_Tests";
 			path = "Target Support Files/Pods-SACamera_Tests";
+			sourceTree = "<group>";
+		};
+		F90918701D7FC10B005C6AF1 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F90918751D7FC181005C6AF1 /* SACamera.storyboard */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -363,6 +376,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				232CB561D5536DF6178D393ABEFD57A3 /* Pods-SACamera_Example-dummy.m in Sources */,
+				F90918741D7FC162005C6AF1 /* SACameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +467,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2A5CC943A0EC1436B5AE81DEED91C9D1 /* Pods-SACamera_Example.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -623,6 +638,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7D970DCD937BECAD1A0E579A9C4C525B /* Pods-SACamera_Example.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
