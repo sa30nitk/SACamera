@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SACamera
 
 class ViewController: UIViewController {
 
@@ -20,5 +21,12 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func buttonTapped(_ sender: AnyObject) {
+        
+        
+        let vc = SACameraViewController.getCameraViewController()
+        self.present(vc, animated: true, completion: nil)
+        
+    }
 }
 
