@@ -13,6 +13,32 @@ import AVFoundation
 import QuartzCore
 import Foundation
 
+
+
+class SACameraContainer: UIView {
+    
+    var camera: SACamera!
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        initialize()
+    }
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        initialize()
+    }
+    
+    func initialize() {
+        let cameraView = SACamera(imageType: .Jpeg)
+        cameraView.frame = self.bounds
+        self.addSubview(cameraView)
+        cameraView.updateConstraints()
+        self.camera = cameraView
+    }
+}
+
+
 struct config {
     var orientations:[Int] = [0]
     var outputType:OutPutType = .Jpeg
@@ -58,7 +84,7 @@ class SACamera: UIView {
     private var stillImageoutput:AVCaptureStillImageOutput!
     private var isImageCapturing = false
     private var flashBtn: UIButton?
-    private var flashtype:AVCaptureFlashMode = .auto
+    private var flashMode:AVCaptureFlashMode = .auto
     private var imageOutPutType:OutPutType = .Jpeg
     private var imageSize:ImageSize = .Visible
     
@@ -174,10 +200,7 @@ class SACamera: UIView {
     }
     
     func iniitalizeCamera(){
-        //captureSession.sessionPreset = AVCaptureSessionPresetPhoto;
-        if (UIDevice().modelName != "iPhone 4s") {
-            captureSession.sessionPreset = AVCaptureSessionPresetPhoto;
-        }
+        captureSession.sessionPreset = AVCaptureSessionPresetPhoto;
         let devices = AVCaptureDevice.devices()
         for device in devices!{
             if((device as AnyObject).hasMediaType(AVMediaTypeVideo)){
@@ -274,7 +297,7 @@ class SACamera: UIView {
     }
     
     private func addCameraFocusChangeObserverForCaptureDevice(){
-        self.captureDevice?.addObserver(self, forKeyPath: "adjustingFocus", options: NSKeyValueObservingOptions.new, context: nil)
+//        self.captureDevice?.addObserver(self, forKeyPath: "adjustingFocus", options: NSKeyValueObservingOptions.new, context: nil)
     }
     
     private func removeCameraFocusChangeObserverForCaptureDevice(){
@@ -315,18 +338,18 @@ class SACamera: UIView {
     // MARK: - Button Actions
     
     func flashClicked(sender:UIButton){
-        switch(self.flashtype){
+        switch(self.flashMode){
         case .auto:
-            flashtype = .on
+            flashMode = .on
             break
             
         case .on:
-            flashtype = .off
+            flashMode = .off
             
             break
             
         case .off:
-            flashtype = .auto
+            flashMode = .auto
             
             break
         }
@@ -336,11 +359,11 @@ class SACamera: UIView {
     
     private func changeFlash(){
         if((self.captureDevice?.hasFlash) == true){
-            if ((self.captureDevice?.isFlashModeSupported(self.flashtype)) == true){
+            if ((self.captureDevice?.isFlashModeSupported(self.flashMode)) == true){
                 do{
                     try self.captureDevice?.lockForConfiguration()
-                    if((self.captureDevice?.isFlashModeSupported(flashtype)) == true){
-                        self.captureDevice?.flashMode = flashtype;
+                    if((self.captureDevice?.isFlashModeSupported(flashMode)) == true){
+                        self.captureDevice?.flashMode = flashMode;
                     }
                     self.changeFlashImage(flashmode: (self.captureDevice?.flashMode)!)
                     
@@ -471,48 +494,6 @@ class SACamera: UIView {
     func stopSession(){
         if(captureSession.isRunning){
             captureSession.stopRunning()
-        }
-    }
-    
-}
-
-public extension UIDevice {
-    
-    var modelName: String {
-        var systemInfo = utsname()
-        uname(&systemInfo)
-        let machineMirror = Mirror(reflecting: systemInfo.machine)
-        let identifier = machineMirror.children.reduce("") { identifier, element in
-            guard let value = element.value as? Int8 , value != 0 else { return identifier }
-            return identifier + String(UnicodeScalar(UInt8(value)))
-        }
-        
-        switch identifier {
-        case "iPod5,1":                                 return "iPod Touch 5"
-        case "iPod7,1":                                 return "iPod Touch 6"
-        case "iPhone3,1", "iPhone3,2", "iPhone3,3":     return "iPhone 4"
-        case "iPhone4,1":                               return "iPhone 4s"
-        case "iPhone5,1", "iPhone5,2":                  return "iPhone 5"
-        case "iPhone5,3", "iPhone5,4":                  return "iPhone 5c"
-        case "iPhone6,1", "iPhone6,2":                  return "iPhone 5s"
-        case "iPhone7,2":                               return "iPhone 6"
-        case "iPhone7,1":                               return "iPhone 6 Plus"
-        case "iPhone8,1":                               return "iPhone 6s"
-        case "iPhone8,2":                               return "iPhone 6s Plus"
-        case "iPhone8,4":                               return "iPhone SE"
-        case "iPad2,1", "iPad2,2", "iPad2,3", "iPad2,4":return "iPad 2"
-        case "iPad3,1", "iPad3,2", "iPad3,3":           return "iPad 3"
-        case "iPad3,4", "iPad3,5", "iPad3,6":           return "iPad 4"
-        case "iPad4,1", "iPad4,2", "iPad4,3":           return "iPad Air"
-        case "iPad5,3", "iPad5,4":                      return "iPad Air 2"
-        case "iPad2,5", "iPad2,6", "iPad2,7":           return "iPad Mini"
-        case "iPad4,4", "iPad4,5", "iPad4,6":           return "iPad Mini 2"
-        case "iPad4,7", "iPad4,8", "iPad4,9":           return "iPad Mini 3"
-        case "iPad5,1", "iPad5,2":                      return "iPad Mini 4"
-        case "iPad6,3", "iPad6,4", "iPad6,7", "iPad6,8":return "iPad Pro"
-        case "AppleTV5,3":                              return "Apple TV"
-        case "i386", "x86_64":                          return "Simulator"
-        default:                                        return identifier
         }
     }
     

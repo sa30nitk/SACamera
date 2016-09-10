@@ -1,27 +1,38 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11198.2" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Camera View Controller-->
-        <scene sceneID="rYr-vh-2BP">
+        <scene sceneID="fKz-BM-3cb">
             <objects>
-                <viewController id="gV8-Xd-iBq" customClass="SACameraViewController" customModule="Pods_SACamera_Example" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SACameraViewController" id="WXA-rP-hiX" customClass="SACameraViewController" customModule="SACamera" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="FCj-SX-gIw"/>
-                        <viewControllerLayoutGuide type="bottom" id="pE9-QA-h3P"/>
+                        <viewControllerLayoutGuide type="top" id="L4D-oT-NRh"/>
+                        <viewControllerLayoutGuide type="bottom" id="uM7-Ox-U4N"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="qNG-RB-QJz">
+                    <view key="view" contentMode="scaleToFill" id="h2I-Al-zHn">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ku0-eo-GiW" customClass="SACameraContainer" customModule="SACamera">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ku0-eo-GiW" firstAttribute="top" secondItem="L4D-oT-NRh" secondAttribute="bottom" id="4KW-V0-uZI"/>
+                            <constraint firstAttribute="trailing" secondItem="Ku0-eo-GiW" secondAttribute="trailing" id="Jhg-UB-160"/>
+                            <constraint firstItem="uM7-Ox-U4N" firstAttribute="top" secondItem="Ku0-eo-GiW" secondAttribute="bottom" id="PXD-jR-6ZM"/>
+                            <constraint firstItem="Ku0-eo-GiW" firstAttribute="leading" secondItem="h2I-Al-zHn" secondAttribute="leading" id="ROU-R5-nJH"/>
+                        </constraints>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="sV5-Iy-bve" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sU2-az-hRI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-295" y="111"/>
+            <point key="canvasLocation" x="-527.20000000000005" y="152.47376311844079"/>
         </scene>
     </scenes>
 </document>

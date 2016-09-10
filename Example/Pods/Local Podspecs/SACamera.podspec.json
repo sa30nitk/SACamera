@@ -1,9 +1,9 @@
 {
   "name": "SACamera",
   "version": "0.1.0",
-  "summary": "A short description of SACamera.",
+  "summary": "iphone custom camera",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/SACamera",
+  "homepage": "https://github.com/sa30nitk/SACamera",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -19,5 +19,10 @@
     "ios": "8.0"
   },
   "source_files": "SACamera/Classes/**/*",
+  "resource_bundles": {
+    "SACamera": [
+      "SACamera/Assets/*.{xcassets,png,xib,storyboard,jpeg,strings,stringsdict}"
+    ]
+  },
   "frameworks": "Foundation"
 }
