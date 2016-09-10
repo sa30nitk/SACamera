@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		036495CB38AC8C18A72AA13DE7B8324A /* SACameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90C8CE0C1CAB2DAA660F98908A954CD /* SACameraViewController.swift */; };
 		09667EAD557594F90C3F85E6211393F6 /* Pods-SACamera_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FBA1925D9A15A45CEF8E4138E3303E /* Pods-SACamera_Tests-dummy.m */; };
 		232CB561D5536DF6178D393ABEFD57A3 /* Pods-SACamera_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 640D6C1425679AFBCC7FFDD7F8A3E75B /* Pods-SACamera_Example-dummy.m */; };
 		28E216681B922E0B188E48FF1206869E /* Pods-SACamera_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 557B6ED666B1ACF351C9EBFBB89F3093 /* Pods-SACamera_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3853210B9DF61392CB94139E867B7103 /* SACamera-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CC99954509F433022C584F12794AC91 /* SACamera-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3BB6207E9AA2A5FDA96C508FB35C5FE3 /* SACamera-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B293CC53C97781FE523AACBD3E3DB515 /* SACamera-dummy.m */; };
 		50996F2D8141D025ECE5E42ECCC96B3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		6D5975AB8D1B2C358DE82F888A69A8B7 /* Pods-SACamera_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EDB5CA8568DA0215FB0D306B1D5B11 /* Pods-SACamera_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A1D84A3023B1A98D30E9D7112CF0FBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		C8B2E23158A3827E0428DD8029EACD59 /* SACamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4ADDDA50B2DC634DB012E07C17205D9 /* SACamera.swift */; };
 		C9FF315C8EB9C84C34DC0FD508E04FEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		CE9E458DC4EF9C255DC33A3E7A9E059A /* SACamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED482CC743217CC325CEE35366DBE9D /* SACamera.swift */; };
-		F90918741D7FC162005C6AF1 /* SACameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90918731D7FC162005C6AF1 /* SACameraViewController.swift */; };
+		E6FC4DA26A7E31DE2373BF826A9841E0 /* SACamera-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B293CC53C97781FE523AACBD3E3DB515 /* SACamera-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +50,6 @@
 		A4E838B93EA69C08B39EBE6F7190159D /* Pods-SACamera_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SACamera_Tests.modulemap"; sourceTree = "<group>"; };
 		A5EB719E420ECED35A15AEB8C1CE3D53 /* Pods-SACamera_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SACamera_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		AD8FCFEE9D33631AAEEFF6D49376AF00 /* SACamera-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SACamera-prefix.pch"; sourceTree = "<group>"; };
-		AED482CC743217CC325CEE35366DBE9D /* SACamera.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SACamera.swift; sourceTree = "<group>"; };
 		B0DAC8480FEC8CD9224E7BC7078C723C /* Pods-SACamera_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SACamera_Tests-resources.sh"; sourceTree = "<group>"; };
 		B0E77E378659275AF51093DB8AF57274 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1CE1FC2B150F8C413135ADDDC5B747B /* Pods-SACamera_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SACamera_Example.modulemap"; sourceTree = "<group>"; };
@@ -59,12 +58,12 @@
 		C8228543FBE7C51966334625EA15A485 /* Pods-SACamera_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SACamera_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		CA2CAA57DB952B62F353EA7C324AD498 /* Pods-SACamera_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SACamera_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D4ADDDA50B2DC634DB012E07C17205D9 /* SACamera.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SACamera.swift; sourceTree = "<group>"; };
 		E015CE77891512E7D1B23CE5205EB087 /* Pods-SACamera_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SACamera_Example-resources.sh"; sourceTree = "<group>"; };
 		E6EDB5CA8568DA0215FB0D306B1D5B11 /* Pods-SACamera_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SACamera_Example-umbrella.h"; sourceTree = "<group>"; };
 		E83918B08D2950FE8942F867D2CAE387 /* SACamera.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SACamera.modulemap; sourceTree = "<group>"; };
 		EB73857469B1301A9E2E77CD31F26CFF /* SACamera.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SACamera.xcconfig; sourceTree = "<group>"; };
-		F90918731D7FC162005C6AF1 /* SACameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SACameraViewController.swift; sourceTree = "<group>"; };
-		F90918751D7FC181005C6AF1 /* SACamera.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SACamera.storyboard; path = Assets/SACamera.storyboard; sourceTree = "<group>"; };
+		F90C8CE0C1CAB2DAA660F98908A954CD /* SACameraViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SACameraViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +107,7 @@
 		1D7846B8F438A3B4DD1372BBF87D809A /* SACamera */ = {
 			isa = PBXGroup;
 			children = (
-				D0D5ACC332F8B5450F38BAF3A65406F5 /* SACamera */,
+				D05E2311B230E82098B7C23FCB6AAA24 /* SACamera */,
 				F354E86243924B9FFD7709373C71B863 /* Support Files */,
 			);
 			name = SACamera;
@@ -121,6 +120,15 @@
 				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		6BC2F00F2D6D666E4E87430158ACAC7D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D4ADDDA50B2DC634DB012E07C17205D9 /* SACamera.swift */,
+				F90C8CE0C1CAB2DAA660F98908A954CD /* SACameraViewController.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -151,15 +159,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		8FA9D415F0F97A0954F39774A59917AC /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				AED482CC743217CC325CEE35366DBE9D /* SACamera.swift */,
-				F90918731D7FC162005C6AF1 /* SACameraViewController.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		BB4960B2BEF07418DC652470E2BEC481 /* Pods-SACamera_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -186,11 +185,10 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D0D5ACC332F8B5450F38BAF3A65406F5 /* SACamera */ = {
+		D05E2311B230E82098B7C23FCB6AAA24 /* SACamera */ = {
 			isa = PBXGroup;
 			children = (
-				F90918701D7FC10B005C6AF1 /* Assets */,
-				8FA9D415F0F97A0954F39774A59917AC /* Classes */,
+				6BC2F00F2D6D666E4E87430158ACAC7D /* Classes */,
 			);
 			path = SACamera;
 			sourceTree = "<group>";
@@ -225,14 +223,6 @@
 			);
 			name = "Pods-SACamera_Tests";
 			path = "Target Support Files/Pods-SACamera_Tests";
-			sourceTree = "<group>";
-		};
-		F90918701D7FC10B005C6AF1 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				F90918751D7FC181005C6AF1 /* SACamera.storyboard */,
-			);
-			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,7 +294,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 08CFB4BDEC34C46BB51D6CEE6EEA2513 /* Build configuration list for PBXNativeTarget "SACamera" */;
 			buildPhases = (
-				492525CA895D4B79D66AC154D70FE0C2 /* Sources */,
+				CB2F28EA862CE4D6FA8C553BFC162E3F /* Sources */,
 				50CB22B6D6C743A918E54FD12250C463 /* Frameworks */,
 				8AB93670F0BEE1D4CA8E0005608C63FE /* Headers */,
 			);
@@ -325,14 +315,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
-				TargetAttributes = {
-					59A6D996EFE9D44810D0277C5DE9D734 = {
-						LastSwiftMigration = 0800;
-					};
-					AE23D7B110B795AA9FC8627DD55798C5 = {
-						LastSwiftMigration = 0800;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -354,15 +336,6 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		492525CA895D4B79D66AC154D70FE0C2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CE9E458DC4EF9C255DC33A3E7A9E059A /* SACamera.swift in Sources */,
-				3BB6207E9AA2A5FDA96C508FB35C5FE3 /* SACamera-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B794CFA7A904B4529FA4F01AD4907B04 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -371,12 +344,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CB2F28EA862CE4D6FA8C553BFC162E3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6FC4DA26A7E31DE2373BF826A9841E0 /* SACamera-dummy.m in Sources */,
+				C8B2E23158A3827E0428DD8029EACD59 /* SACamera.swift in Sources */,
+				036495CB38AC8C18A72AA13DE7B8324A /* SACameraViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D3EE2B38C9110B17BE2075FC343EF1BD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				232CB561D5536DF6178D393ABEFD57A3 /* Pods-SACamera_Example-dummy.m in Sources */,
-				F90918741D7FC162005C6AF1 /* SACameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,9 +412,39 @@
 			};
 			name = Release;
 		};
-		2E1EF82510D2E405114EFA7F384D98B4 /* Debug */ = {
+		28FF9C0EFB7B92590815CE7F22887837 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 867ED672D1F2DC419004AE678DAEBDD1 /* Pods-SACamera_Tests.debug.xcconfig */;
+			baseConfigurationReference = EB73857469B1301A9E2E77CD31F26CFF /* SACamera.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SACamera/SACamera-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SACamera/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SACamera/SACamera.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SACamera;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3CDB288C07FC2678FBD4F4A0205591D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D970DCD937BECAD1A0E579A9C4C525B /* Pods-SACamera_Example.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -443,31 +455,32 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SACamera_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SACamera_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SACamera_Tests/Pods-SACamera_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-SACamera_Example/Pods-SACamera_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SACamera_Tests;
+				PRODUCT_NAME = Pods_SACamera_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		379A44D271723542D7772A7DAED6BF07 /* Release */ = {
+		5567F0B2C3CC5BD38151113A87368341 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2A5CC943A0EC1436B5AE81DEED91C9D1 /* Pods-SACamera_Example.release.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -498,13 +511,13 @@
 			};
 			name = Release;
 		};
-		CFCF81560CFC33F8329F17F87E95055D /* Release */ = {
+		74EB803E92AC105A000B057905A5AF54 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EB73857469B1301A9E2E77CD31F26CFF /* SACamera.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -517,8 +530,43 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SACamera/SACamera.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = SACamera;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C3A1F3A2D6439484A68BD48BBEBCF70F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 867ED672D1F2DC419004AE678DAEBDD1 /* Pods-SACamera_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SACamera_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SACamera_Tests/Pods-SACamera_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SACamera_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -526,7 +574,7 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -570,7 +618,7 @@
 			};
 			name = Debug;
 		};
-		D928CA43F03BE741C1A19E9B0253D127 /* Release */ = {
+		FC2CF57F1F52D829C79D2D905C8A8E56 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CA2CAA57DB952B62F353EA7C324AD498 /* Pods-SACamera_Tests.release.xcconfig */;
 			buildSettings = {
@@ -597,78 +645,12 @@
 				PRODUCT_NAME = Pods_SACamera_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		DA055C4CA5840EA55DDC51C7D2E3BB17 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EB73857469B1301A9E2E77CD31F26CFF /* SACamera.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SACamera/SACamera-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SACamera/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SACamera/SACamera.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SACamera;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		FCA26D3C23ABC204B016A396BAA50AA2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D970DCD937BECAD1A0E579A9C4C525B /* Pods-SACamera_Example.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SACamera_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SACamera_Example/Pods-SACamera_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SACamera_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -676,8 +658,8 @@
 		08CFB4BDEC34C46BB51D6CEE6EEA2513 /* Build configuration list for PBXNativeTarget "SACamera" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DA055C4CA5840EA55DDC51C7D2E3BB17 /* Debug */,
-				CFCF81560CFC33F8329F17F87E95055D /* Release */,
+				74EB803E92AC105A000B057905A5AF54 /* Debug */,
+				28FF9C0EFB7B92590815CE7F22887837 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -694,8 +676,8 @@
 		71C8C41043673DE081309028E19B2F8A /* Build configuration list for PBXNativeTarget "Pods-SACamera_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FCA26D3C23ABC204B016A396BAA50AA2 /* Debug */,
-				379A44D271723542D7772A7DAED6BF07 /* Release */,
+				3CDB288C07FC2678FBD4F4A0205591D8 /* Debug */,
+				5567F0B2C3CC5BD38151113A87368341 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -703,8 +685,8 @@
 		A3449B414E1B3722BD3ADFFCED11D73F /* Build configuration list for PBXNativeTarget "Pods-SACamera_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2E1EF82510D2E405114EFA7F384D98B4 /* Debug */,
-				D928CA43F03BE741C1A19E9B0253D127 /* Release */,
+				C3A1F3A2D6439484A68BD48BBEBCF70F /* Debug */,
+				FC2CF57F1F52D829C79D2D905C8A8E56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

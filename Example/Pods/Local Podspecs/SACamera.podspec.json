@@ -9,7 +9,7 @@
     "file": "LICENSE"
   },
   "authors": {
-    "SATEESH": "gudla.sateesh@practo.com"
+    "SATEESH": "sa30nitk@gmail.com"
   },
   "source": {
     "git": "https://github.com/<GITHUB_USERNAME>/SACamera.git",
@@ -18,5 +18,6 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "SACamera/Classes/**/*"
+  "source_files": "SACamera/Classes/**/*",
+  "frameworks": "Foundation"
 }

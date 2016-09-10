@@ -369,7 +369,7 @@ class SACamera: UIView {
         }
     }
     
-    func capturePhotoWithCompletionHandler(completion:((UIImage!)->())){
+    func capturePhotoWithCompletionHandler(completion: @escaping ((UIImage!)->())){
         if(!isImageCapturing){
             isImageCapturing = true
             self.stillImageoutput?.captureStillImageAsynchronously(from: self.stillImageoutput?.connection(withMediaType: AVMediaTypeVideo), completionHandler: { (sampleBuffer, error) -> Void in

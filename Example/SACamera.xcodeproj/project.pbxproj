@@ -14,7 +14,10 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		86FFE8D728A72A9E6E46BB21 /* Pods_SACamera_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 774361FD8141D8C1C81ABAAB /* Pods_SACamera_Tests.framework */; };
+		9429B11566FB24B3076EA000 /* Pods_SACamera_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 774361FD8141D8C1C81ABAAB /* Pods_SACamera_Tests.framework */; };
+		F99094211D83CAB700AE8E2C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F99094201D83CAB700AE8E2C /* UIKit.framework */; };
+		F99094231D83CAC700AE8E2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F99094221D83CAC700AE8E2C /* Foundation.framework */; };
+		F99094251D83CAD200AE8E2C /* SACamera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F99094241D83CAD200AE8E2C /* SACamera.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +32,7 @@
 
 /* Begin PBXFileReference section */
 		3CAE59D4C77E388AE01C7FAF /* Pods-SACamera_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SACamera_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SACamera_Example/Pods-SACamera_Example.release.xcconfig"; sourceTree = "<group>"; };
+		420FB71CECBB534F2125B6A3 /* Pods-SACamera_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SACamera_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SACamera_Tests/Pods-SACamera_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4C1153060B7886EDBB748E5B /* Pods-SACamera_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SACamera_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SACamera_Example/Pods-SACamera_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SACamera_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SACamera_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -40,13 +44,15 @@
 		607FACE51AFB9204008FA782 /* SACamera_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SACamera_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		62B61C8E15DEF8F977BFE1CD /* Pods-SACamera_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SACamera_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SACamera_Tests/Pods-SACamera_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		671A35CB0BE99CC659863F08 /* Pods_SACamera_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SACamera_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DA22DF0A707C57806D34DA8 /* Pods-SACamera_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SACamera_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SACamera_Tests/Pods-SACamera_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		774361FD8141D8C1C81ABAAB /* Pods_SACamera_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SACamera_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E5DABE6ACF3EA2903A4DBDB /* SACamera.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SACamera.podspec; path = ../SACamera.podspec; sourceTree = "<group>"; };
-		9C795103B7866235EC211F7C /* Pods-SACamera_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SACamera_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SACamera_Tests/Pods-SACamera_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E2817B78E769B6B4296226DF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E8E6E1BE4B983FA95D9E8B37 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F99094201D83CAB700AE8E2C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F99094221D83CAC700AE8E2C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F99094241D83CAD200AE8E2C /* SACamera.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SACamera.framework; path = "../../../../Library/Developer/Xcode/DerivedData/SACamera-cdluwgbxkvnaqadfvibcveqijxhc/Build/Products/Debug-iphonesimulator/SACamera/SACamera.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F99094251D83CAD200AE8E2C /* SACamera.framework in Frameworks */,
+				F99094231D83CAC700AE8E2C /* Foundation.framework in Frameworks */,
+				F99094211D83CAB700AE8E2C /* UIKit.framework in Frameworks */,
 				111841F72548F66F54AF09D9 /* Pods_SACamera_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -62,7 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86FFE8D728A72A9E6E46BB21 /* Pods_SACamera_Tests.framework in Frameworks */,
+				9429B11566FB24B3076EA000 /* Pods_SACamera_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,8 +83,8 @@
 			children = (
 				4C1153060B7886EDBB748E5B /* Pods-SACamera_Example.debug.xcconfig */,
 				3CAE59D4C77E388AE01C7FAF /* Pods-SACamera_Example.release.xcconfig */,
-				9C795103B7866235EC211F7C /* Pods-SACamera_Tests.debug.xcconfig */,
-				62B61C8E15DEF8F977BFE1CD /* Pods-SACamera_Tests.release.xcconfig */,
+				420FB71CECBB534F2125B6A3 /* Pods-SACamera_Tests.debug.xcconfig */,
+				6DA22DF0A707C57806D34DA8 /* Pods-SACamera_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -153,6 +162,9 @@
 		71C39EF08991BA76DD7D7BC8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F99094241D83CAD200AE8E2C /* SACamera.framework */,
+				F99094221D83CAC700AE8E2C /* Foundation.framework */,
+				F99094201D83CAB700AE8E2C /* UIKit.framework */,
 				671A35CB0BE99CC659863F08 /* Pods_SACamera_Example.framework */,
 				774361FD8141D8C1C81ABAAB /* Pods_SACamera_Tests.framework */,
 			);
@@ -519,7 +531,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C795103B7866235EC211F7C /* Pods-SACamera_Tests.debug.xcconfig */;
+			baseConfigurationReference = 420FB71CECBB534F2125B6A3 /* Pods-SACamera_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -539,7 +551,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62B61C8E15DEF8F977BFE1CD /* Pods-SACamera_Tests.release.xcconfig */;
+			baseConfigurationReference = 6DA22DF0A707C57806D34DA8 /* Pods-SACamera_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
